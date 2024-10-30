@@ -1,0 +1,73 @@
+﻿body{
+    background-color:grey;
+}
+.block {
+padding: 100px;
+margin: 0px auto;
+}
+.card{
+    font-size: 30px;
+    padding: 15px;
+    width: 700px;
+    height: 700px;
+    background-color: white;
+}
+.garb1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    top: 100px;
+    left: 30px;
+    border-radius: 15px;
+}
+.garb2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    bottom: 300px;
+    right: -370px;
+    border-radius: 15px;
+}
+.card1 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: beige;
+    top: 25px;
+    left: 25px;
+    border-radius: 15px;
+}
+.card2 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: beige;
+    top: 25px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.button1 {
+    font: 30px; /*не могу изменить размер текста в кнопке*/ 
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background-color: dimgrey;
+    top: 310px;
+    left: 0px;
+    border-radius: 15px;
+}
+.button2 {
+    font: 30px; /*не могу изменить размер текста в кнопке*/
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background-color: dimgrey;
+    top: 310px;
+    left: 0px;
+    border-radius: 15px;
+}

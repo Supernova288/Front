@@ -1,4 +1,7 @@
-﻿.paragraph1 {
+﻿body {
+    font-family: 'Roboto-slab', sans-serif;
+}
+.paragraph1 {
     color: black; font-size: 25px
 }
 .top {
@@ -9,4 +12,7 @@
 }
 .P2{
     font-style:oblique
+}
+P3 {
+    font-family: "Roboto Slab", sans-serif;
 }

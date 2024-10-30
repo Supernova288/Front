@@ -1,0 +1,112 @@
+﻿
+.box1 {
+    /*свойства тексат*/
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    /*свойтсва внутренней фигуры*/
+    background: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.border1 {
+    /* положение внутренней фигуры*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*положение всей фигуры*/
+    margin-top:70px;
+    margin-bottom:25px;
+    margin-left:25px;
+    margin-right:25px;
+    /*граница*/
+    border: 5px solid black;
+}
+
+.box2 {
+    /*свойства тексат*/
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    /*свойтсва внутренней фигуры*/
+    display: inline-box;
+    background: aqua;
+    height: 130px;
+    width: 200px;
+}
+.border2 {
+    /*граница*/
+    border: 5px solid black;
+    border-radius: 10px 90px/ 110px;
+    /* положение внутренней фигуры*/
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    /*положение всей фигуры*/
+    margin-top: -220px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    margin-right: 0px;
+}
+
+.box3 {
+    /*свойтсва внутренней фигуры*/
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 100px solid blue;
+    /* положение внутренней фигуры*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+    /*положение всей фигуры*/
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 1230px;
+}
+.border3 {
+    /*Я не разобрался как мне у трапеции сделать оконтовку, да и вообще это д.б треугольник*/
+}
+
+.box4 {
+    /*свойства тексат*/
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    /*свойтсва внутренней фигуры*/
+    background: blueviolet;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+}
+.border4 {
+    /* положение внутренней фигуры*/
+    padding-top: 70px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    /*положение всей фигуры*/
+    margin-top: -220px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    margin-right: 0px;
+}
+.txt {
+    /*свойства тексат*/
+    color: white;
+    position: relative;
+    font-size: 22px;
+    display: inline-block solid transparent;
+    /* положение текста*/
+    margin-top: -110px;
+    margin-left: 30px;
+}
+.head{
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique;
+}

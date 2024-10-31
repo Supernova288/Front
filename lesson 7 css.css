@@ -1,10 +1,15 @@
 ﻿body {
 }
+.header{
+    position: absolute;
+}
 .container {
     display: flex;
     background: #07203F;
     height: 200px;
-    gap:400px;
+    width: 100%;
+    gap: 400px;
+    border: 5px solid yellow;
 }
 
 .start{
@@ -20,11 +25,78 @@
 .end{
     display: flex;
     position: relative;
-    width: 800px;
+    width: 1200px;
     height: 50px;
     top:75px;
-    gap:70px;
+    gap:200px;
     font-size: 50px;
     color: white;
     text-decoration: underline;
 }
+
+.section {
+    width: 100%;
+    background: #07203F;
+}
+
+.cont2 {
+    background: #07203F;
+    height: 1000px;
+}
+
+.s1_cont {
+    width: 800px;
+    height: 500px;
+}
+.headline {
+    position: relative;
+    left: 100px;
+    top: 200px;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.paragrahp {
+    position: relative;
+    left: 100px;
+    top: 300px;
+    font-size: 75px;
+    color: white;
+}
+.button {
+    position: relative;
+    top: 400px;
+    left: 100px;
+}
+.btn {
+display: inline-block;
+width: 700px;
+height: 150px;
+    font-size: 75px;
+    background: white;
+    color: black;
+    border-radius: 15px;
+}
+.btn:hover {
+color: white;
+background: darkgrey;
+box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+
+s2_cont {
+    height: 100px;
+    width: 100px;
+}
+.img {
+    width: 600px;
+    height: 600px;
+    background: url(https://sun9-70.userapi.com/s/v1/ig2/VBJLZpQUsmshxbMj0uQc21xgi-2xqUUbaEzeqF4J-58I7JR1rgWhl9brDc7bVX9CTR5b9pSxQe-E3DmeG_NqubD8.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&from=bu&u=om05u7AzXzCORwi4O-Ue6vMCW320xvtlcnjUhs014TI&cs=640x640);
+    position: relative;
+    left: 1250px;
+    top: -330px;
+    border-radius: 50%;
+}
+
+
+

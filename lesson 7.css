@@ -1,0 +1,10 @@
+﻿body {
+
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border: 3px solid red;
+    background: blue;
+}
